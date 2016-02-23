@@ -15,6 +15,7 @@ echo "Pushing changes to server."
 hg push
 
 
+echo
 echo -n "Press ENTER to close."
 
 read userIn
