@@ -1,3 +1,4 @@
+echo "Pushing local changes to server..."
 
 hg diff --stat
 

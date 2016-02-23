@@ -1,3 +1,5 @@
+echo "Pulling data from remote server..."
+
 hg pull
 
 echo
