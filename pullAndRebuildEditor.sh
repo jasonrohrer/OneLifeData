@@ -1,3 +1,13 @@
+cd ../minorGems
+
+echo "Pulling minorGems changes from server..."
+
+hg pull
+
+hg update
+
+
+
 cd ../OneLife
 
 echo "Pulling editor changes from server..."
