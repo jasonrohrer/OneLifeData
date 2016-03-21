@@ -3,6 +3,8 @@ Water Hole
 containable=0
 containSize=1
 permanent=1
+heldInHand=0
+blocksWalking=0
 mapChance=0.050000
 heatValue=0
 rValue=0.000000
