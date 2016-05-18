@@ -16,13 +16,25 @@ hg pull
 
 hg update
 
-echo
-echo "Building latest version of game client and editor..."
 
 ./configure 1
 cd gameSource
+
+echo
+echo "Building latest version of game client..."
+
 make
+
+echo
+echo "Building latest version of editor..."
+
 ./makeEditor.sh
+
+echo
+echo "Building latest version of server..."
+
+cd ../server
+make
 
 
 echo
