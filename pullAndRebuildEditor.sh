@@ -20,6 +20,8 @@ hg update
 ./configure 1
 cd gameSource
 
+rm ../../minorGems/game/platforms/SDL/gameSDL.o
+
 echo
 echo "Building latest version of game client..."
 
